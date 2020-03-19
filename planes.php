@@ -6,6 +6,10 @@
 		public abstract function TakeOff();
 		public abstract function Land();
 		
+		public function Fly()
+		{
+			echo "Летим";
+		}
 	}
 
 	class Mig extends Airplane
